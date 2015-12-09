@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
 
 /*nav*/
 .navbar-default {
@@ -16,7 +17,7 @@ nav.navbar.navbar-default {
 .navbar-default .navbar-nav>.active>a:focus, 
 .navbar-default .navbar-nav>.active>a:hover {
     color: #fff;
-    background-color: rgba(17, 17, .5);
+    background-color: rgba(17, 17, 17, .5);
 }
 
 
@@ -54,4 +55,128 @@ nav.navbar.navbar-default {
 	background-size: cover;
 	background-position: center; /*can use percentage x and y*/
 }
+
+.slide-one-logo {
+	max-height: 300px;
+}
+
+.carousel-caption {
+    bottom: 150px;
+}
+
+.carousel-caption p {
+    color: #fff;
+    font-size: 17px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.59);
+    font-weight: 400;
+}
+
 /*end of carousel*/
+
+/*buttons*/
+
+.btn-default {
+    color: #F8512F;
+    background-color: rgba(5, 5, 5, .8);
+    border-color: #F8512F; /*can use transparent to eliminate border*/
+    text-transform: uppercase;
+    border-radius: 8px;
+    padding:5px 20px;
+ }   
+
+ .btn-default:hover {
+ 	color: #F8512F;
+ 	border-color: #F8512F;
+ 	background-color: rgba(200, 200, 200, .8);
+ }
+/*end of buttons*/
+
+/*Our Story*/
+#our-story {
+	min-height: 600px; /*allows content to grow, as in mobile, but keeps tall*/
+}
+
+#our-story .row {
+	margin-top: 30px;
+}
+
+#our-story h1{
+	font-family: 'Lobster', cursive;
+	font-size:85px;
+	color: #F8512F;
+	margin-top: 0;
+	text-shadow:1px 1px 5px #0a0a0a;
+}
+
+#our-story h2 {
+	font-size: 28px;
+	margin-top: -15px;
+}
+
+#our-story p {
+	font-weight: 300px;
+	font-size: 17px;
+}
+
+h3.story-year {
+	font-weight: 700;
+	font-size: 200px;
+	color: rgba(149, 147,147, .2);
+	position: absolute;
+	z-index: -1;
+}
+
+/*End of Our Story*/
+
+/*Review Section*/
+
+#review {
+	min-height: 600px;
+	background-image: url(../img/food_review.jpg);
+    background-size:cover; /*crucial for responsive sites*/
+    background-position:center;
+    background-attachment: fixed;
+}
+
+#review .center {
+	float:none;
+	margin: 0 auto;
+	background-color: rgba(20, 20, 20, .6);
+	padding: 10px;
+	margin-top: 145px;
+	border-radius: 5px;
+}
+
+#review h2{
+	font-family: 'Lobster', cursive;
+	font-size:70px;
+	color: #F8512F;
+	margin-top: 0;
+	text-shadow:1px 1px 5px #0a0a0a;
+}
+
+#review p {
+	color: #fff;
+	font-weight:300; 
+	font-size:30px;
+	text-shadow:1px 1px 5px #0a0a0a;
+}
+
+/*End of Review Section*/
+
+/*menu section*/
+
+#menu {
+	min-height: 600px;
+	background-image: url(../img/black_linen.png);
+    background-size:cover; /*crucial for responsive sites*/
+    padding-bottom: 70px;
+    padding-top: 40px;
+}
+
+.food {
+	background-color: #fff;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+/*end menu section*/
